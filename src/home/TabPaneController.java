@@ -78,6 +78,8 @@ public class TabPaneController implements Initializable {
 
 	private int totalQuestPoints;
 
+
+
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
 		assert comboBox != null : "fx:id=\"comboBox\" was not injected: check your FXML file.";
@@ -111,7 +113,7 @@ public class TabPaneController implements Initializable {
         status.setReorderable(false);
         guideURL.setReorderable(false);
 		try (InputStream resource = getClass().getResourceAsStream("MemberQuests.txt")) {
-			this.memberQuests = new BufferedReader(new InputStreamReader(resource,
+			memberQuests = new BufferedReader(new InputStreamReader(resource,
 					StandardCharsets.UTF_8)).lines().collect(Collectors.toList());
 		} catch (IOException e1) {
 			// TODO Auto-generated catch block
@@ -199,7 +201,7 @@ public class TabPaneController implements Initializable {
 	}
 
 	private void updateCSV(int index, Boolean complete) throws IOException{
-		File file = new File(getClass().getResource("/home/SaveData.txt").getFile());
+		File file = new File(getClass().getResource("/SaveData.txt").getFile());
 		BufferedWriter wr = new BufferedWriter(new FileWriter(file, false));
 		if(complete){
 			completedQuests[index] = "0";

@@ -8,7 +8,6 @@ import javafx.stage.Stage;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.Pane;
 
 
 public class Main extends Application {
@@ -20,14 +19,14 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws IOException {
         hostServices = getHostServices();
-        System.out.println("FXML resource: " + getClass().getClassLoader().getResource("MainMenuLayout.fxml"));
+        System.out.println("FXML resource: " + getClass().getResource("/home/MainMenuLayout.fxml"));
 
         FXMLLoader mainMenuLoader = new FXMLLoader(getClass().getResource("MainMenuLayout.fxml"));
         Parent mainMenuPane = mainMenuLoader.load();
         Scene mainMenuScene = new Scene(mainMenuPane, 325, 370);
         mainMenuScene.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
 
-        FXMLLoader questGuideLoader = new FXMLLoader(getClass().getResource("TabPaneLayout.fxml"));
+        FXMLLoader questGuideLoader = new FXMLLoader(getClass().getResource("/home/TabPaneLayout.fxml"));
         Parent questGuidePane = questGuideLoader.load();
         Scene questGuideScene = new Scene(questGuidePane, 700, 400);
 

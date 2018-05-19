@@ -20,32 +20,8 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-/build.fxbuild
-.idea/misc.xml
-.idea/modules.xml
-.idea/vcs.xml
-.idea/workspace.xm
-.idea/workspace.xml
 OSRSQuestHelper.iml
-!/src/home/resources/
-out/production/OSRSQuestHelper/MainMenuLayout.fxml
-out/production/OSRSQuestHelper/MemberQuests.txt
-out/production/OSRSQuestHelper/SaveData.txt
-out/production/OSRSQuestHelper/TabPaneLayout.fxml
-out/production/OSRSQuestHelper/application.css
-out/production/OSRSQuestHelper/background.png
-out/production/OSRSQuestHelper/button.png
-out/production/OSRSQuestHelper/buttonHigh.png
-out/production/OSRSQuestHelper/home/resources/
-out/production/OSRSQuestHelper/home/style.css
-out/production/OSRSQuestHelper/style.css
-src/home/MainMenuLayout.fxml
-src/home/MemberQuests.txt
-src/home/SaveData.txt
-src/home/TabPaneLayout.fxml
-src/home/application.css
-src/home/background.png
-src/home/button.png
-src/home/buttonHigh.png
-src/home/style.css
-src/resources/
+.settings/
+out/
+/.gitignore
+.idea/
