@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:id="mainMenu" prefHeight="325.0" prefWidth="370.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home.MainMenuController">
+   <center>
+      <Button fx:id="questGuideButton" minHeight="125.0" minWidth="152.0" mnemonicParsing="false" onAction="#openQuestGuideScene" prefHeight="125.0" prefWidth="152.0" stylesheets="@style.css" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets top="100.0" />
+         </BorderPane.margin></Button>
+   </center>
+</BorderPane>
