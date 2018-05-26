@@ -1,0 +1,10 @@
+1	Easy	Ardougne    Have Wizard Cromperty teleport you to the Rune essence mine.	Rune Mysteries	None	None	a	false
+2	Easy    Ardougne    Steal a cake from the East Ardougne market stalls.	None	5 Thieving	None	a	false
+3	Easy    Ardougne    Sell silk to the Silk trader in East Ardougne for 60 coins each.	None	None	Silk	a	false
+4	Easy	Ardougne	Use the altar in East Ardougne's church.	None	None	None	a	false
+5	Easy    Ardougne	Go out fishing on the Fishing Trawler.	Fishing Trawler	None	None	a	false
+6	Easy    Ardougne	Enter the Combat Training Camp north of West Ardougne.	Biohazard	None	None	a	false
+7	Easy    Ardougne	Have Tindel Marchant identify a rusty sword for you.	None	None	Rusty swords, 100 coins	a	false
+8	Easy    Ardougne	Use the Ardougne lever to teleport to the Wilderness.	None	None	None	a	false
+9	Easy    Ardougne	View Aleck's Hunter Emporium shop in Yanille.	None	None	None	a	false
+10	Easy    Ardougne	Check what pets you have insured with Probita in East Ardougne.	None	None	None	a	false
